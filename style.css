@@ -11,9 +11,12 @@ body {
 }
 nav {
     display: flex;
+    position: fixed;
     left: 20px;
-    width: 150px;
+    width: 300px;
+    justify-content: space-around;
 }
+
 .title {
     margin: 20px auto;
     display: flex;
